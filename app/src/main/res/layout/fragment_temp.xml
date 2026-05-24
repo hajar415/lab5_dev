@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Conversion Celsius ↔ Fahrenheit"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:layout_marginBottom="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:id="@+id/directionGroupTemp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbCelsius"
+            android:text="°C → °F"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/rbFahrenheit"
+            android:text="°F → °C"
+            android:layout_marginStart="20dp"/>
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/inputTemp"
+        android:hint="@string/hint_value"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnConvertir"
+        android:text="@string/btn_label"
+        android:backgroundTint="@color/btn_convert"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/resultTemp"
+        android:text="@string/result_default"
+        android:textSize="16sp"
+        android:textColor="@color/result_text"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

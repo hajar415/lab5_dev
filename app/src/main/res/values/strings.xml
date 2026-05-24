@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ConvertisseurUnites</string>
+    <string name="tab_temp">Température</string>
+    <string name="tab_dist">Distance</string>
+    <string name="hint_value">Saisir la valeur…</string>
+    <string name="btn_label">Convertir</string>
+    <string name="result_default">→ Résultat ici</string>
+    <string name="err_empty">Veuillez saisir un nombre valide</string>
+    <string name="quit_title">Fermer l\'application</string>
+    <string name="quit_msg">Confirmer la fermeture ?</string>
+    <string name="quit_yes">Confirmer</string>
+    <string name="quit_no">Annuler</string>
+</resources>
